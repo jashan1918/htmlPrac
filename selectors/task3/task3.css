@@ -17,3 +17,28 @@ th {
 }
 
 /* Add styles here */
+
+a {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+.container p:first-child{
+    font-size: 150%;
+}
+
+.container::first-line{
+    color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #333333;
+  color: white;
+}
